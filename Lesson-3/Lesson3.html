@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3 </title>
+
+</head>
+<body>
+<form action="" method="" enctype="">
+    
+    <h1 style="text-align: center;"> <i> პირადი ინფორმაციის შევსება </i></h1>
+    
+    <p> <b> ანგარიშის შესაქმნელად გთხოვთ მიუთითოთ თქვენი ინფორმაცია:</b></p>
+    <p>
+        <label for="" >სახელი</label><br>
+        <input type="text" placeholder="Tamuna" lang="en" required>
+        <!-- მხოლოდ ინგლისურად რომ იწერებოდეს როგორ უნდა შევზღუდო?  -->
+    </p> 
+  
+    <p>
+        <label for="">გვარი</label><br>
+        <input type="text" placeholder="Kiknadze" required>
+    </p>
+
+    <p>
+        <label for="">პირადი ნომერი</label><br>
+        <input type="text" maxlength="11" required>
+        <!-- მხოლოდ რიცხვები რომ ჩაიწეროს ეგ როგორ უნდა შევზღუდო? -->
+    </p>
+
+    <p>
+        <label for="">ასაკი</label><br>
+        <input type="number" min=18 max=65 required > 
+    </p>
+
+    <p>
+        <label for="">მეილი</label><br>
+        <input type="email" placeholder="test@gmail.com"  required > 
+    </p>
+
+    <p>
+        <label for="">გაქვთ თუ არა ანგარიში </label><br>
+        <input type="radio" name="acount" checked>კი
+        <input type="radio" name="acount">არა
+        <input type="radio" name="acount">არ მახსოვს
+    </p>
+
+    <p>
+    <!-- გთხოვთ მიუთითოთ ცოდნის დონე ეს ჩანაწერი p ში რომ არ გავწერო და label -ში იყოს როგორც თქვენთან არის შეცდომაა?
+        და მეორე კითხვა სავალდებულო როგორ უნდა გავხადო ერთ-ერთის მონიშვნა -->
+        <label for="">გთხოვთ მიუთითოთ ცოდნის დონე:</label> <br>
+        <input type="checkbox" name="Program">Beginner <br>
+        <input type="checkbox" name="Program">Intermediate<br>
+        <input type="checkbox" name="Program">Advanced
+    </p>
+    <p>
+        <textarea name="" id="" cols="20" rows="5" placeholder="კომენტარი"></textarea>
+    </p>
+    <br>
+    <button type="submit" onclick="">გაგზავნა</button>
+    <!-- <button type="submit">ინფორმაციის გაგზავნა</button> -->
+    <!-- <button>Submit</button> -->
+    <!-- <input type="submit"> -->
+    <!-- რა სხვაობაა ამათ შორის? -->
+    <br><br><br><br><br><br><br>
+
+    <select name="პერიოდი" id="">
+        <option value="" selected disabled>აირჩიეთ პერიოდი</option>
+        <option value="">დღე</option>
+        <option value="">თვე</option>
+        <option value="">წელი</option>
+
+       
+
+    </select>
+
+  
+    <br><br><br><br>
+    
+</form>
+</body>
+</html>

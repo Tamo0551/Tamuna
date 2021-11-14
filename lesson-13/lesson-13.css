@@ -1,0 +1,168 @@
+    *{
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    body{
+        background-color: #57576a;
+    }
+
+    nav{
+        width: 100%;
+        background-color: black;
+        top: 0;
+        padding: 0 150px;
+        position: fixed;
+        box-shadow: 3px 3px 7px black;
+
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+    .logo{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        display: block;
+        padding: 15px 0;
+        
+    }
+
+    .nav-li{
+        display: inline-block;
+        padding-left: 15px;
+
+    }
+
+    .nav-li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav-li a:hover{
+        color: turquoise;
+    }
+
+    main{
+        padding: 150px 0;
+        text-align: center;
+    }
+
+
+    .mp4{
+        position: relative;
+        z-index: -1;
+        width: 100%;
+    }
+
+    .text{
+        position: absolute;
+        width: 700px;
+        text-align: center;
+        padding-top: 100px;
+        color: white;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    h1, p{
+        padding-bottom: 30px;
+    }
+
+    .btn{
+        text-decoration: none;
+        border: 2px solid turquoise;;
+        padding: 5px 20px;
+        color: white;
+        cursor: grab;
+        
+    }
+
+    h1::after{
+        content: "";
+        display: block;
+        background: turquoise;
+        height: 2px;
+
+        margin: 4px 130px;
+    }
+
+    .videoline::before{
+        content: "";
+        display: block;
+        background: turquoise;
+        height: 2px;
+    
+    }
+
+    .videoline::after{
+        content: "";
+        display: block;
+        background: turquoise;
+        height: 2px;
+    }
+
+    .square{
+        color: turquoise;
+        display: inline;
+        transform: rotate(38deg);
+        position: absolute;
+        left: 50%;
+        top: -1%;
+    }
+
+    .videoline{
+        position: relative;
+    }
+
+    .squarebottom{
+        color: turquoise;
+        display: inline;
+        transform: rotate(38deg);
+        position: absolute;
+        right: 50%;
+        bottom: -1%
+        
+
+    }
+
+    @media (max-width: 700px) {
+        nav{
+            position: relative;
+            
+        }
+
+        .navbar{
+            display: block;
+            text-align: center;
+        }
+        .navul{
+            padding: 0;
+        }
+
+        .nav-li{
+            display: block;
+            margin: 5px 0;
+            padding: 0;
+        }
+        main{
+            padding: 40px 0;
+        }
+
+        .text{
+            width: 100%;
+            padding: 0px 50px;
+        }
+        p{
+            display: none;
+        }
+    }
+
+

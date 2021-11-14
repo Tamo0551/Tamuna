@@ -1,0 +1,37 @@
+body{
+    background-color:black
+}
+
+
+.bakcground2{
+    background-image: url(https://i.pinimg.com/originals/66/46/26/664626b3443192d5c197b42286836e5f.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 59%;
+}
+
+.textstyle{
+    text-align: center;
+    color: white;
+
+}
+.textstyle2{
+    text-align: center;
+    background-color: white;
+    height: 200px;
+    margin-left: 312px;
+    margin-right: 312px;
+    display: inline-block;
+}
+p{
+
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: left;
+    font-size: 12px;
+    
+
+}
+
+
