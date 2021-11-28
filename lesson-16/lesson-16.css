@@ -1,0 +1,87 @@
+*{
+    font-family: bpg_nino_mtavruli_bold;
+}
+
+.container{
+    width: 1100px;
+}
+
+
+.carousel-img1{
+    background-image: url(../lesson-16/Layer\ 3.png);
+    height: 100vh;
+    position: relative;
+}
+
+.firstnavbar{
+    padding-top: 42px;
+
+
+}
+
+.languagefont{
+    font-size: 15px;
+    font-family: bpg_nino_mtavruli_bold;
+
+}
+
+.secondnavbar{
+    position: absolute;
+    z-index: 999;
+    top: 40px;
+    border-bottom: 2px solid red;
+}
+
+.secondnavbar-fonts{
+    font-size: 17px;
+    line-height: 25px;
+    color: #6b6b6b;
+    font-weight: bold;
+}
+
+.heigth100{
+    height: 110px;
+    width: 100%;
+}
+
+.border-box{
+    width: 270px;
+    height: 50px;
+}
+
+.dropdown-fonts{
+    font-family: bpg_arial;
+    font-size: 14px;
+    color: #4b4b4b;
+}
+.animalicon{
+    height: 50px;
+}
+
+.dropdown-box{
+    border-top: 4px solid red;
+    margin-top: 7px !important;
+    padding: 0px ;
+}
+.sliderbutton{
+    opacity: -1 !important;
+}
+
+.carousel-caption{
+    top:50%;
+}
+
+.carousel-icon{
+    width: 10%
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
