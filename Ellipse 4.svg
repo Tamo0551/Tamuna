@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 55" width="56" height="55">
+	<title>Contact Us</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #55acee } 
+	</style>
+	<g id="Contact Us">
+		<g id="Social-Media">
+			<g id="Group 43">
+				<path id="Ellipse 4" class="shp0" d="M28.5 0C43.69 0 56 12.31 56 27.5C56 42.69 43.69 55 28.5 55C13.31 55 1 42.69 1 27.5C1 12.31 13.31 0 28.5 0Z" />
+			</g>
+		</g>
+	</g>
+</svg>

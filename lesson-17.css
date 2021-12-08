@@ -1,0 +1,315 @@
+header{
+    background-image: url(../lesson-17/background\ -\ image.png);
+    height: 963px;
+    width: 100%;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar-toggler{
+    background-color: #00bcd4 !important;
+}
+
+.img123{
+    background-image: url(Mock-up\ \(1\).png);
+    
+}
+.container{
+    width: 1200px;
+    max-width: 100%;
+}
+
+.navbar{
+    background-color: #000000;
+}
+
+.logo{
+    font-size: 36px;
+    font-family: monserat-bold;
+}
+
+.menufont{
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #39b9ef !important;
+    text-decoration: underline;
+
+
+}
+
+.bi-search{
+    color: white;
+    cursor: pointer;
+}
+
+.bi-search:hover{
+    color: red;
+    
+}
+
+header::before{
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.87);
+    
+
+}
+
+.home{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.Austeracolor{
+
+    color:#2ebaee
+}
+
+.hederbutton{
+    margin-top: 44px;
+    background-color: #2eb9ed;
+    padding: 7px 60px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+.ourservices{
+    background: linear-gradient(155deg, white 50%, #2eb9ed 50%);
+    height: 80%;
+    padding-top: 55px;
+    
+}
+
+.vectorimg{
+    padding-bottom: 40px;
+}
+
+.ourservicesbtn{
+    margin-top: 44px;
+    margin-bottom: 140px;
+    background-color: #2eb9ed;
+    padding: 7px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+}
+
+.card{
+    background-color: transparent;
+}
+
+
+.CardGround::before{
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    z-index: -1;
+}
+
+.CardGround1::before{
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2db9ed;
+    z-index: -1;
+}
+
+.CardText{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.Rounded-img{
+    height: 236px;
+    width: 80%;
+    border: 3px solid #efefef;
+}
+
+.Font72px{
+    font-size: 72px;
+    margin: 0;
+}
+
+.CheckourAteam{
+    padding-top: 95px;
+    padding-bottom: 114px;
+}
+
+footer{
+    background-image: url(../lesson-17/Hue_Saturation\ 1.png);
+    height: 648px;
+    width: 100%;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+footer::before{
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.87);
+    
+
+}
+
+.ContactUs, form{
+    position: absolute;
+}
+
+.form-control{
+    background-color: #fff0;
+    border: 1px solid #ced4da4a;
+    padding-right: 315px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.form-control:focus{
+    color: white;
+    background-color: #fff0;
+}
+
+.contactinfo{
+ position: relative;
+ color: white;
+
+}
+
+::placeholder{
+    color: white !important;
+}
+
+.info{
+    padding-top: 107px;
+}
+
+h6{
+    font-size: 18px;
+    color: #878787;
+    padding-top: 40px;
+}
+
+
+.phone, .email{
+    color: #2ebaee;
+    font-size: 30px;
+    line-height: 48px;
+}
+
+.infotext{
+    font-size: 30px;
+    color: #878787;
+}
+
+textarea{
+    padding-bottom: 83px !important;
+}
+
+
+.wrapper{
+    display: inline-flex;
+}
+
+.wrapper .icon{
+    margin-right:20px;
+    color: black;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.wrapper .icon span{
+    height: 45px;
+    width: 45px;
+    display: block;
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px rgba(163, 65, 65, 0.1);
+}
+
+.wrapper .icon span i{
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.wrapper .twitter span{
+    background: #55abed;
+    color: white;
+}
+
+.wrapper .facebook span{
+    background: #3b5997;
+    color: white;
+}
+
+.wrapper .pinterest span{
+    background: #cb2127;
+    color: white;
+}
+
+.wrapper .google span{
+    background:#dd4b39;
+    color: white;
+}
+
+.wrapper .gmail span{
+    background: #e23047;
+    color: white;
+}
+
+.wrapper .facebook:hover span{
+    background: rgba(255, 208, 0, 0.74)   
+}
+
+.wrapper .twitter:hover span{
+    background: rgba(255, 208, 0, 0.74)   
+}
+.wrapper .pinterest:hover span{
+    background: rgba(255, 208, 0, 0.74)   
+}
+.wrapper .google:hover span{
+    background: rgba(255, 208, 0, 0.74)   
+}
+.wrapper .gmail:hover span{
+    background: rgba(255, 208, 0, 0.74)   
+}
+
